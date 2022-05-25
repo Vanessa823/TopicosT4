@@ -1,0 +1,11 @@
+DROP DATABASE IF EXISTS escuela;
+CREATE DATABASE escuela;
+USE escuela;
+CREATE TABLE alumno( 
+Num_control INT PRIMARY KEY, 
+Nombre varchar(100), 
+Apellidos varchar (100), 
+Fecha_nacimiento DATE, 
+Sexo varchar (10), 
+Carrera varchar (50)
+);
